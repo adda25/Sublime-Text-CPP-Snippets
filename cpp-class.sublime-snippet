@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+class $1 
+{
+public:
+	$1 () {};
+	~$1 () {};
+
+	$0
+
+private:
+
+};
+]]></content>
+<tabTrigger>class</tabTrigger>
+<scope>source.c++</scope>
+</snippet>
+
+

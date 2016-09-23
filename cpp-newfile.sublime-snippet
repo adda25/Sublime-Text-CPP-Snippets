@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+#ifndef _$1_
+#define _$1_
+#ifdef __cplusplus
+
+#include $2
+
+$0
+
+#endif // __cplusplus
+#endif // _$1_
+
+]]></content>
+	<tabTrigger>newfile</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
